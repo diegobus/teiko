@@ -1,6 +1,13 @@
 name: teiko
+channels:
+  - conda-forge
+  - nodefaults
 dependencies:
-- pandas
-- scipy
-- plotly
-- streamlit
+  - python=3.10
+  - pandas
+  - scipy
+  - plotly
+  - pip
+  - pip:
+      - streamlit
+      - protobuf==3.20.*
