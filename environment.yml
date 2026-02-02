@@ -1,0 +1,6 @@
+name: teiko
+dependencies:
+- pandas
+- scipy
+- plotly
+- streamlit
